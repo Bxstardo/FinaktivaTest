@@ -113,3 +113,9 @@ Seleccion el proyecto CustomerFinaktiva.Api como proyecto de inicio
 Por ultimo ejecute el IIS Express
 ![image](https://user-images.githubusercontent.com/54759003/155899473-fb7649bf-9908-4eb4-8fd8-a9f133c965d8.png)
 
+
+## Api url config Angular
+Dirijase a la siguiente ruta
+"C:\Users\martinezb\source\repos\CustomerFinaktiva.Api\CustomerFinaktiva.Web\src\app\Services"
+y en el cambie el puerto de la url en la cual esta corriendo el IIS Express del back
+
