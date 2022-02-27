@@ -1,0 +1,16 @@
+{"Timestamp":"2022-02-26T20:47:14.7991926-05:00","Level":"Information","MessageTemplate":"Starting our service..."}
+{"Timestamp":"2022-02-26T20:51:21.0989973-05:00","Level":"Information","MessageTemplate":"Starting our service..."}
+{"Timestamp":"2022-02-26T20:52:05.1767608-05:00","Level":"Information","MessageTemplate":"Starting our service..."}
+{"Timestamp":"2022-02-26T20:52:42.6100115-05:00","Level":"Information","MessageTemplate":"Starting our service..."}
+{"Timestamp":"2022-02-26T21:00:07.1473236-05:00","Level":"Information","MessageTemplate":"Starting our service..."}
+{"Timestamp":"2022-02-26T21:00:55.8593834-05:00","Level":"Information","MessageTemplate":"Starting our service..."}
+{"Timestamp":"2022-02-26T21:09:41.6590260-05:00","Level":"Information","MessageTemplate":"Starting our service..."}
+{"Timestamp":"2022-02-26T21:14:55.5592598-05:00","Level":"Information","MessageTemplate":"Starting our service..."}
+{"Timestamp":"2022-02-26T21:18:49.6316431-05:00","Level":"Information","MessageTemplate":"Starting our service..."}
+{"Timestamp":"2022-02-26T21:21:52.9111370-05:00","Level":"Information","MessageTemplate":"Starting our service..."}
+{"Timestamp":"2022-02-26T21:26:54.3337601-05:00","Level":"Information","MessageTemplate":"Starting our service..."}
+{"Timestamp":"2022-02-26T21:38:52.4580284-05:00","Level":"Information","MessageTemplate":"Starting our service..."}
+{"Timestamp":"2022-02-26T21:54:37.4048550-05:00","Level":"Information","MessageTemplate":"Starting our service..."}
+{"Timestamp":"2022-02-26T21:55:27.8515204-05:00","Level":"Information","MessageTemplate":"Starting our service..."}
+{"Timestamp":"2022-02-26T23:56:54.6231541-05:00","Level":"Information","MessageTemplate":"Starting our service..."}
+{"Timestamp":"2022-02-26T23:58:46.8556388-05:00","Level":"Information","MessageTemplate":"Starting our service..."}

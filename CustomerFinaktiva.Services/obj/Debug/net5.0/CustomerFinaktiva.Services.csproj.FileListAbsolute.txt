@@ -1,0 +1,15 @@
+C:\Users\martinezb\source\repos\CustomerFinaktiva.Api\CustomerFinaktiva.Services\bin\Debug\net5.0\CustomerFinaktiva.Services.deps.json
+C:\Users\martinezb\source\repos\CustomerFinaktiva.Api\CustomerFinaktiva.Services\bin\Debug\net5.0\CustomerFinaktiva.Services.dll
+C:\Users\martinezb\source\repos\CustomerFinaktiva.Api\CustomerFinaktiva.Services\bin\Debug\net5.0\ref\CustomerFinaktiva.Services.dll
+C:\Users\martinezb\source\repos\CustomerFinaktiva.Api\CustomerFinaktiva.Services\bin\Debug\net5.0\CustomerFinaktiva.Services.pdb
+C:\Users\martinezb\source\repos\CustomerFinaktiva.Api\CustomerFinaktiva.Services\bin\Debug\net5.0\CustomerFinaktiva.Core.dll
+C:\Users\martinezb\source\repos\CustomerFinaktiva.Api\CustomerFinaktiva.Services\bin\Debug\net5.0\CustomerFinaktiva.Core.pdb
+C:\Users\martinezb\source\repos\CustomerFinaktiva.Api\CustomerFinaktiva.Services\obj\Debug\net5.0\CustomerFinaktiva.Services.csprojAssemblyReference.cache
+C:\Users\martinezb\source\repos\CustomerFinaktiva.Api\CustomerFinaktiva.Services\obj\Debug\net5.0\CustomerFinaktiva.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\martinezb\source\repos\CustomerFinaktiva.Api\CustomerFinaktiva.Services\obj\Debug\net5.0\CustomerFinaktiva.Services.AssemblyInfoInputs.cache
+C:\Users\martinezb\source\repos\CustomerFinaktiva.Api\CustomerFinaktiva.Services\obj\Debug\net5.0\CustomerFinaktiva.Services.AssemblyInfo.cs
+C:\Users\martinezb\source\repos\CustomerFinaktiva.Api\CustomerFinaktiva.Services\obj\Debug\net5.0\CustomerFinaktiva.Services.csproj.CoreCompileInputs.cache
+C:\Users\martinezb\source\repos\CustomerFinaktiva.Api\CustomerFinaktiva.Services\obj\Debug\net5.0\CustomerFinaktiva.Services.csproj.CopyComplete
+C:\Users\martinezb\source\repos\CustomerFinaktiva.Api\CustomerFinaktiva.Services\obj\Debug\net5.0\CustomerFinaktiva.Services.dll
+C:\Users\martinezb\source\repos\CustomerFinaktiva.Api\CustomerFinaktiva.Services\obj\Debug\net5.0\ref\CustomerFinaktiva.Services.dll
+C:\Users\martinezb\source\repos\CustomerFinaktiva.Api\CustomerFinaktiva.Services\obj\Debug\net5.0\CustomerFinaktiva.Services.pdb

@@ -1,0 +1,15 @@
+C:\Users\martinezb\source\repos\CustomerFinaktiva.Api\CustomerFinaktiva.Core\bin\Debug\net5.0\CustomerFinaktiva.Core.deps.json
+C:\Users\martinezb\source\repos\CustomerFinaktiva.Api\CustomerFinaktiva.Core\bin\Debug\net5.0\CustomerFinaktiva.Core.runtimeconfig.json
+C:\Users\martinezb\source\repos\CustomerFinaktiva.Api\CustomerFinaktiva.Core\bin\Debug\net5.0\CustomerFinaktiva.Core.runtimeconfig.dev.json
+C:\Users\martinezb\source\repos\CustomerFinaktiva.Api\CustomerFinaktiva.Core\bin\Debug\net5.0\CustomerFinaktiva.Core.dll
+C:\Users\martinezb\source\repos\CustomerFinaktiva.Api\CustomerFinaktiva.Core\bin\Debug\net5.0\ref\CustomerFinaktiva.Core.dll
+C:\Users\martinezb\source\repos\CustomerFinaktiva.Api\CustomerFinaktiva.Core\bin\Debug\net5.0\CustomerFinaktiva.Core.pdb
+C:\Users\martinezb\source\repos\CustomerFinaktiva.Api\CustomerFinaktiva.Core\obj\Debug\net5.0\CustomerFinaktiva.Core.csprojAssemblyReference.cache
+C:\Users\martinezb\source\repos\CustomerFinaktiva.Api\CustomerFinaktiva.Core\obj\Debug\net5.0\CustomerFinaktiva.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\martinezb\source\repos\CustomerFinaktiva.Api\CustomerFinaktiva.Core\obj\Debug\net5.0\CustomerFinaktiva.Core.AssemblyInfoInputs.cache
+C:\Users\martinezb\source\repos\CustomerFinaktiva.Api\CustomerFinaktiva.Core\obj\Debug\net5.0\CustomerFinaktiva.Core.AssemblyInfo.cs
+C:\Users\martinezb\source\repos\CustomerFinaktiva.Api\CustomerFinaktiva.Core\obj\Debug\net5.0\CustomerFinaktiva.Core.csproj.CoreCompileInputs.cache
+C:\Users\martinezb\source\repos\CustomerFinaktiva.Api\CustomerFinaktiva.Core\obj\Debug\net5.0\CustomerFinaktiva.Core.dll
+C:\Users\martinezb\source\repos\CustomerFinaktiva.Api\CustomerFinaktiva.Core\obj\Debug\net5.0\ref\CustomerFinaktiva.Core.dll
+C:\Users\martinezb\source\repos\CustomerFinaktiva.Api\CustomerFinaktiva.Core\obj\Debug\net5.0\CustomerFinaktiva.Core.pdb
+C:\Users\martinezb\source\repos\CustomerFinaktiva.Api\CustomerFinaktiva.Core\obj\Debug\net5.0\CustomerFinaktiva.Core.genruntimeconfig.cache

@@ -1,0 +1,350 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CustomerFinaktiva.Api</name>
+    </assembly>
+    <members>
+        <member name="T:CustomerFinaktiva.Api.Controllers.ClientController">
+            <summary>
+            ClientController
+            </summary>
+            <seealso cref="T:Microsoft.AspNetCore.Mvc.ControllerBase" />
+        </member>
+        <member name="M:CustomerFinaktiva.Api.Controllers.ClientController.#ctor(Microsoft.Extensions.Logging.ILogger{CustomerFinaktiva.Api.Controllers.ClientController},CustomerFinaktiva.Core.Services.IClientService,AutoMapper.IMapper)">
+            <summary>
+            Initializes a new instance of the <see cref="T:CustomerFinaktiva.Api.Controllers.ClientController" /> class.
+            </summary>
+            <param name="logger">The logger.</param>
+            <param name="clientService">The client service.</param>
+            <param name="mapper">The mapper.</param>
+        </member>
+        <member name="M:CustomerFinaktiva.Api.Controllers.ClientController.Get">
+            <summary>
+            Gets the clients.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CustomerFinaktiva.Api.Controllers.ClientController.GetById(System.Int32)">
+            <summary>
+            Gets the by identifier.
+            </summary>
+            <param name="idClient">The identifier client.</param>
+            <returns></returns>
+        </member>
+        <member name="M:CustomerFinaktiva.Api.Controllers.ClientController.Create(CustomerFinaktiva.Api.Models.ClientModel)">
+            <summary>
+            Creates the specified new client.
+            </summary>
+            <param name="newClient">The new client.</param>
+            <returns></returns>
+        </member>
+        <member name="M:CustomerFinaktiva.Api.Controllers.ClientController.AssignProvider(CustomerFinaktiva.Api.Models.ClientProviderModel)">
+            <summary>
+            Assigns the provider.
+            </summary>
+            <param name="clientProvider">The client provider.</param>
+            <returns></returns>
+        </member>
+        <member name="M:CustomerFinaktiva.Api.Controllers.ClientController.AssignProviders(System.Collections.Generic.List{CustomerFinaktiva.Api.Models.ClientProvidersModel})">
+            <summary>
+            update assign the providers by action, action = 'Add' or action 'Remove'.
+            </summary>
+            <param name="clientProviders">The client providers.</param>
+            <returns></returns>
+        </member>
+        <member name="M:CustomerFinaktiva.Api.Controllers.ClientController.Update(CustomerFinaktiva.Api.Models.ClientModel,System.Int32)">
+            <summary>
+            Updates the specified new client.
+            </summary>
+            <param name="newClient">The new client.</param>
+            <param name="idClient">The identifier client.</param>
+            <returns></returns>
+        </member>
+        <member name="M:CustomerFinaktiva.Api.Controllers.ClientController.Delete(System.Int32)">
+            <summary>
+            Deletes the specified identifier client.
+            </summary>
+            <param name="idClient">The identifier client.</param>
+            <returns></returns>
+        </member>
+        <member name="T:CustomerFinaktiva.Api.Controllers.DocumentTypeController">
+            <summary>
+            DocumentTypeController
+            </summary>
+            <seealso cref="T:Microsoft.AspNetCore.Mvc.ControllerBase" />
+        </member>
+        <member name="M:CustomerFinaktiva.Api.Controllers.DocumentTypeController.#ctor(Microsoft.Extensions.Logging.ILogger{CustomerFinaktiva.Api.Controllers.DocumentTypeController},CustomerFinaktiva.Core.Services.IDocumentTypeService,AutoMapper.IMapper)">
+            <summary>
+            Initializes a new instance of the <see cref="T:CustomerFinaktiva.Api.Controllers.DocumentTypeController"/> class.
+            </summary>
+            <param name="logger">The logger.</param>
+            <param name="documentTypeService">The documentType service.</param>
+            <param name="mapper">The mapper.</param>
+        </member>
+        <member name="M:CustomerFinaktiva.Api.Controllers.DocumentTypeController.Get">
+            <summary>
+            Gets documentType
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:CustomerFinaktiva.Api.Controllers.ProviderController">
+            <summary>
+            ProviderController
+            </summary>
+            <seealso cref="T:Microsoft.AspNetCore.Mvc.ControllerBase" />
+        </member>
+        <member name="M:CustomerFinaktiva.Api.Controllers.ProviderController.#ctor(Microsoft.Extensions.Logging.ILogger{CustomerFinaktiva.Api.Controllers.ProviderController},CustomerFinaktiva.Core.Services.IProviderService,AutoMapper.IMapper)">
+            <summary>
+            Initializes a new instance of the <see cref="T:CustomerFinaktiva.Api.Controllers.ProviderController"/> class.
+            </summary>
+            <param name="logger">The logger.</param>
+            <param name="providerService">The provider service.</param>
+            <param name="mapper">The mapper.</param>
+        </member>
+        <member name="M:CustomerFinaktiva.Api.Controllers.ProviderController.Get">
+            <summary>
+            Gets providers
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:CustomerFinaktiva.Api.Helpers.Error">
+            <summary>
+            General object for wrap errors.
+            </summary>
+        </member>
+        <member name="P:CustomerFinaktiva.Api.Helpers.Error.Code">
+            <summary>
+            Gets or sets the Code
+            Error code.
+            </summary>
+        </member>
+        <member name="P:CustomerFinaktiva.Api.Helpers.Error.Message">
+            <summary>
+            Gets or sets the Message
+            Error message.
+            </summary>
+        </member>
+        <member name="M:CustomerFinaktiva.Api.Helpers.Error.Equals(CustomerFinaktiva.Api.Helpers.Error)">
+            <summary>
+            Returns true if Error instances are equal.
+            </summary>
+            <param name="other">Instance of Error to be compared.</param>
+            <returns>Boolean.</returns>
+        </member>
+        <member name="M:CustomerFinaktiva.Api.Helpers.Error.Equals(System.Object)">
+            <summary>
+            Returns true if objects are equal.
+            </summary>
+            <param name="obj">Object to be compared.</param>
+            <returns>Boolean.</returns>
+        </member>
+        <member name="M:CustomerFinaktiva.Api.Helpers.Error.GetHashCode">
+            <summary>
+            Gets the hash code.
+            </summary>
+            <returns>Hash code.</returns>
+        </member>
+        <member name="M:CustomerFinaktiva.Api.Helpers.Error.ToJson">
+            <summary>
+            Returns the JSON string presentation of the object.
+            </summary>
+            <returns>JSON string presentation of the object.</returns>
+        </member>
+        <member name="M:CustomerFinaktiva.Api.Helpers.Error.ToString">
+            <summary>
+            Returns the string presentation of the object.
+            </summary>
+            <returns>String presentation of the object.</returns>
+        </member>
+        <member name="T:CustomerFinaktiva.Api.Mappings.MappingProfile">
+            <summary>
+            Mappings models
+            </summary>
+            <seealso cref="T:AutoMapper.Profile" />
+        </member>
+        <member name="M:CustomerFinaktiva.Api.Mappings.MappingProfile.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:CustomerFinaktiva.Api.Mappings.MappingProfile"/> class.
+            </summary>
+        </member>
+        <member name="M:CustomerFinaktiva.Api.Mappings.MappingProfile.GeneralMappings">
+            <summary>
+            Generals the mappings.
+            </summary>
+        </member>
+        <member name="T:CustomerFinaktiva.Api.Models.ClientModel">
+            <summary>
+            ClientModel
+            </summary>
+        </member>
+        <member name="P:CustomerFinaktiva.Api.Models.ClientModel.IdClient">
+            <summary>
+            Gets or sets the identifier client.
+            </summary>
+            <value>
+            The identifier client.
+            </value>
+        </member>
+        <member name="P:CustomerFinaktiva.Api.Models.ClientModel.Names">
+            <summary>
+            Gets or sets the names.
+            </summary>
+            <value>
+            The names.
+            </value>
+        </member>
+        <member name="P:CustomerFinaktiva.Api.Models.ClientModel.Surnames">
+            <summary>
+            Gets or sets the surnames.
+            </summary>
+            <value>
+            The surnames.
+            </value>
+        </member>
+        <member name="P:CustomerFinaktiva.Api.Models.ClientModel.DocumentNumber">
+            <summary>
+            Gets or sets the document number.
+            </summary>
+            <value>
+            The document number.
+            </value>
+        </member>
+        <member name="P:CustomerFinaktiva.Api.Models.ClientModel.IdDocumentType">
+            <summary>
+            Gets or sets the type of the identifier document.
+            </summary>
+            <value>
+            The type of the identifier document.
+            </value>
+        </member>
+        <member name="P:CustomerFinaktiva.Api.Models.ClientModel.BusinessName">
+            <summary>
+            Gets or sets the name of the business.
+            </summary>
+            <value>
+            The name of the business.
+            </value>
+        </member>
+        <member name="P:CustomerFinaktiva.Api.Models.ClientModel.SalesLastYear">
+            <summary>
+            Gets or sets the sales last year.
+            </summary>
+            <value>
+            The sales last year.
+            </value>
+        </member>
+        <member name="T:CustomerFinaktiva.Api.Models.ClientProviderModel">
+            <summary>
+            ClientProviderModel
+            </summary>
+        </member>
+        <member name="P:CustomerFinaktiva.Api.Models.ClientProviderModel.IdClient">
+            <summary>
+            Gets or sets the identifier client.
+            </summary>
+            <value>
+            The identifier client.
+            </value>
+        </member>
+        <member name="P:CustomerFinaktiva.Api.Models.ClientProviderModel.IdProvider">
+            <summary>
+            Gets or sets the identifier provider.
+            </summary>
+            <value>
+            The identifier provider.
+            </value>
+        </member>
+        <member name="T:CustomerFinaktiva.Api.Models.DocumentTypeModel">
+            <summary>
+            DocumentTypeModel
+            </summary>
+        </member>
+        <member name="P:CustomerFinaktiva.Api.Models.DocumentTypeModel.IdDocumentType">
+            <summary>
+            Gets or sets the type of the identifier document.
+            </summary>
+            <value>
+            The type of the identifier document.
+            </value>
+        </member>
+        <member name="P:CustomerFinaktiva.Api.Models.DocumentTypeModel.Name">
+            <summary>
+            Gets or sets the name.
+            </summary>
+            <value>
+            The name.
+            </value>
+        </member>
+        <member name="T:CustomerFinaktiva.Api.Models.ProviderModel">
+            <summary>
+            ProviderModel
+            </summary>
+        </member>
+        <member name="P:CustomerFinaktiva.Api.Models.ProviderModel.IdProvider">
+            <summary>
+            Gets or sets the identifier provider.
+            </summary>
+            <value>
+            The identifier provider.
+            </value>
+        </member>
+        <member name="P:CustomerFinaktiva.Api.Models.ProviderModel.Name">
+            <summary>
+            Gets or sets the name.
+            </summary>
+            <value>
+            The name.
+            </value>
+        </member>
+        <member name="T:CustomerFinaktiva.Api.Program">
+            <summary>
+            Program
+            </summary>
+        </member>
+        <member name="M:CustomerFinaktiva.Api.Program.Main(System.String[])">
+            <summary>
+            Defines the entry point of the application.
+            </summary>
+            <param name="args">The arguments.</param>
+        </member>
+        <member name="M:CustomerFinaktiva.Api.Program.CreateHostBuilder(System.String[])">
+            <summary>
+            Creates the host builder.
+            </summary>
+            <param name="args">The arguments.</param>
+            <returns></returns>
+        </member>
+        <member name="T:CustomerFinaktiva.Api.Startup">
+            <summary>
+            Startup
+            </summary>
+        </member>
+        <member name="M:CustomerFinaktiva.Api.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Initializes a new instance of the <see cref="T:CustomerFinaktiva.Api.Startup"/> class.
+            </summary>
+            <param name="configuration">The configuration.</param>
+        </member>
+        <member name="P:CustomerFinaktiva.Api.Startup.Configuration">
+            <summary>
+            Gets the configuration.
+            </summary>
+            <value>
+            The configuration.
+            </value>
+        </member>
+        <member name="M:CustomerFinaktiva.Api.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Configures the services.
+            </summary>
+            <param name="services">The services.</param>
+        </member>
+        <member name="M:CustomerFinaktiva.Api.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">
+            <summary>
+            Configures the specified application.
+            </summary>
+            <param name="app">The application.</param>
+            <param name="env">The env.</param>
+        </member>
+    </members>
+</doc>
