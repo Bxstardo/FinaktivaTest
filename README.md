@@ -96,7 +96,7 @@ from client c
 ```
 
 ## Cadena de conexión
-Utilize la siguiente cadena de conexion reemplazando los valores del "User ID" y "Password" segun sus credenciales
+Dirigirse al appsettings.json. Reemplaze y utilize la siguiente cadena de conexion reemplazando los valores del "User ID" y "Password" segun sus credenciales
 
 ```python
   "ConnectionStrings": {
